@@ -14,7 +14,7 @@ export default function Tasks({tasks,removeTask, checkToogleTask} : { tasks : Ta
                 <span>{taskQuantity}</span>
             </div>
             <div>
-                <p>Tarefas Conluidas</p>
+                <p>Tarefas Concluidas</p>
                 <span>{complatedTask}</span>
             </div>
         </header>
