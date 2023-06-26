@@ -1,0 +1,49 @@
+.conteiner{
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 12.5rem;
+    width: 100%;
+}
+.newTaskForm{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    max-width: 46rem;
+ 
+    height: 3.375rem;
+    padding: 0 1rem;
+    bottom: calc(-3.375rem/2);
+    gap: 0.5rem;
+    
+}
+.newTaskForm input{
+    outline: none;
+    border: 1px solid #262626;
+    height: 100%;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    flex: 1;
+    font-size: 1rem;
+    background: #262626;
+    color: #fff;
+}
+.newTaskForm button{
+    display: flex;
+    align-items: center;
+    background: #1E6F9F ;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: .875rem;
+    gap: .4rem;
+}
+.newTaskForm button:hover{
+    filter: brightness(.8);
+    transition: 500ms;
+}
