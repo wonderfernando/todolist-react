@@ -10,14 +10,11 @@
 .newTaskForm{
     position: absolute;
     display: flex;
-    width: 100%;
-    max-width: 46rem;
- 
+    width: 46rem;
     height: 3.375rem;
     padding: 0 1rem;
     bottom: calc(-3.375rem/2);
     gap: 0.5rem;
-    
 }
 .newTaskForm input{
     outline: none;
@@ -46,4 +43,12 @@
 .newTaskForm button:hover{
     filter: brightness(.8);
     transition: 500ms;
+}
+@media (max-width:48rem) {
+    .newTaskForm{
+ 
+        width: 100%;
+        
+    }
+    
 }
