@@ -16,7 +16,7 @@ export default function Header({addTask} : {addTask: (title: string) => void}) {
              
             <form className={styles.newTaskForm}>
                 <input value={title} onChange={onChangeTitle} type="text" placeholder="Adicione uma nova tarefa" />
-                <button onClick={handleSubmit}>Criar <AiOutlinePlusCircle/></button>
+                <button onClick={handleSubmit}><AiOutlinePlusCircle size={25}/></button>
             </form>
           </header>
 }
